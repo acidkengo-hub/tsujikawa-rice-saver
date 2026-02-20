@@ -3,6 +3,10 @@ import requests
 import unicodedata
 import re
 import time
+import os  # 👈 【追加1】パソコンを操作する魔法「os」を召喚！
+
+# 🌟 【追加2】クラウド上で、自動操縦用のブラウザ（Chromium）を強制インストール！
+os.system("playwright install chromium")
 from playwright.sync_api import sync_playwright
 
 # --- 辻川家専用：激安お米レスキュー・完全体（Yahoo×楽天×メルカリ） ---
